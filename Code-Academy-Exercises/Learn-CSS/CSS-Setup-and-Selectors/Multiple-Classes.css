@@ -1,0 +1,11 @@
+<h1 class="title uppercase">Top Vacation Spots</h1>
+
+.title {
+  color: teal;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+/* Learned how to add multiple classes to an element */

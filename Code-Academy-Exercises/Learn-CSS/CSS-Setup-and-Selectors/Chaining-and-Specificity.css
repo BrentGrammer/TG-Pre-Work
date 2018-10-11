@@ -1,0 +1,6 @@
+h5 {
+  color: rebeccapurple;
+}
+
+/* The specificity is higher for selectors that are chained or select a class and a tag over a tag selector alone and those
+rules will overwrite other less specific ones. */

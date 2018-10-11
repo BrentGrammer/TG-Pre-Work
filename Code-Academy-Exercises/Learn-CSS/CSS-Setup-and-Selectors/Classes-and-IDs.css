@@ -1,0 +1,7 @@
+.publish-time {
+  color: gray;
+}
+
+<h6 class="publish-time">Published: 2 Days Ago</h6>
+
+/* Id rules override class rules and are used when only one element needs to be styled particularly and stay the same */

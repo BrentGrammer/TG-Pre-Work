@@ -1,0 +1,5 @@
+h2.destination {
+  font-family: cursive;
+}
+
+/* Chaining allows writing rules for only selector tags that have a specified class */

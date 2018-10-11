@@ -1,0 +1,16 @@
+<h1 class="title cursive capitalize">Top Vacation Spots</h1>
+
+
+.title {
+  color: teal;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+
+/*  IDs are the most specific selector in CSS, followed by classes, and finally, tags. For example, consider the following HTML and CSS: */
+
+/* Best practice to style with lowest specificity to allow for easy overwriting of styles as code base grows.
+   Start with styling by tag name if possible for lowest specificity, then class name, then id */

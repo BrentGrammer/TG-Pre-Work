@@ -1,0 +1,8 @@
+<h1 id="article-title" class="title uppercase">Top Vacation Spots</h1>
+
+#article-title {
+  font-family: cursive;
+	text-transform: capitalize;
+}
+
+/* Learned how to add id to element and write css for it */
