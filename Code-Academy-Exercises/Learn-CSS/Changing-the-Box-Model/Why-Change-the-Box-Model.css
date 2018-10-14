@@ -1,0 +1,6 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Changing the box model to border box will include padding and border thickness in the total width and height set for
+   the element and re-size the content automatically to maintain that size. */
