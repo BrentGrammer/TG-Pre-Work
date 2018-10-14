@@ -1,0 +1,3 @@
+/* The box of an element has padding (in between content and margin), margin (space between the border and outside edge),
+   border (surrounds the content) and content (the elements main content in the box).  Dimensions are edited using the
+   height and width props. */
