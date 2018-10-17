@@ -1,0 +1,5 @@
+
+
+/* Implicit Grid is a built in algorithm in CSS Grid that deals with the situation where there are more elements on the page
+   than the grid was defined for (i.e. if a display all option is clicked in a shopping site).  The default behavior is that new items
+   fill up rows as needed and the row height is only as tall as the content requires. */

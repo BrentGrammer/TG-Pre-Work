@@ -1,0 +1,52 @@
+.container {
+  display: grid;
+  grid-template-areas: "header header"
+    								   "nav nav"
+                       "left right"
+                       "footer footer";
+  grid-template-columns: 200px 400px;
+  grid-template-rows: 150px 200px 600px 200px;
+  max-width: 900px;
+  position: relative;
+  margin: auto;
+  grid-gap: 10px;
+}
+
+h1, h2 {
+  font-family: monospace;
+  text-align: center;
+}
+
+header {
+  background-color: dodgerblue;
+  grid-area: header;
+}
+
+nav {
+  background-color: beige;
+  grid-area: nav;
+}
+
+.left {
+  background-color: dodgerblue;
+  grid-area: left;
+}
+
+.right {
+  background-color: beige;
+  grid-area: right;
+}
+
+footer {
+  background-color: dodgerblue;
+  grid-area: footer;
+}
+
+
+/* With the grid-template-areas property you can name sections of the grid and use that as a value for setting
+   the grid-column/row start and end values. The property is declared on a grid container. You set the number of 
+   columns with how many times the name is used as the value (in quotes) and the number of rows by each line of 
+   named columns.  
+   After setting up the grid-template-areas property, you can then assign the values to the grid-area property on
+   the grid item you want to adopt those values. 
+   You can then use grid-template-columns and grid-template-rows to set heights and widths of the area on the container. */
