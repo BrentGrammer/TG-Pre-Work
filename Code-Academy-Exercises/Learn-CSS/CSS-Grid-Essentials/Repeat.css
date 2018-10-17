@@ -1,0 +1,18 @@
+.grid {
+  display: grid;
+  border: 2px blue solid;
+  width: 400px;
+  height: 500px;
+  grid-template: repeat(3, 1fr) / 3fr 50% 1fr;
+}
+
+.box {
+  background-color: beige;
+  color: black;
+  border-radius: 5px;
+  border: 2px dodgerblue solid;
+}
+
+/* The properties defining rows and columns can take a function to set their value.  Repeat is a function that will duplicate
+   the measurement a given number of times. The first argument is the number of times to repeat and the second argument is the
+   measurement which can take more than one value to define multiple repeating rows or columns. */

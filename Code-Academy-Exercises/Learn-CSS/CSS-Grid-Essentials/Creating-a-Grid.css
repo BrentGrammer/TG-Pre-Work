@@ -1,0 +1,16 @@
+.grid {
+  border: 2px blue solid;
+  display: grid;
+  width: 400px;
+  height: 500px;
+}
+
+.box {
+  background-color: beige;
+  color: black;
+  border-radius: 5px;
+  border: 2px dodgerblue solid;
+}
+
+/* To setup a grid, you need both a grid container and grid items.  to create a container, assign the display property
+   of an element to grid (block) or inline-grid (inline).  
